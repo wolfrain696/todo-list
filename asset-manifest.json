@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/todo-list/static/css/main.bf530fe8.chunk.css",
+    "main.js": "/todo-list/static/js/main.148d81a0.chunk.js",
+    "main.js.map": "/todo-list/static/js/main.148d81a0.chunk.js.map",
+    "runtime-main.js": "/todo-list/static/js/runtime-main.6499a3fd.js",
+    "runtime-main.js.map": "/todo-list/static/js/runtime-main.6499a3fd.js.map",
+    "static/js/2.fd8b6b14.chunk.js": "/todo-list/static/js/2.fd8b6b14.chunk.js",
+    "static/js/2.fd8b6b14.chunk.js.map": "/todo-list/static/js/2.fd8b6b14.chunk.js.map",
+    "index.html": "/todo-list/index.html",
+    "static/css/main.bf530fe8.chunk.css.map": "/todo-list/static/css/main.bf530fe8.chunk.css.map",
+    "static/js/2.fd8b6b14.chunk.js.LICENSE.txt": "/todo-list/static/js/2.fd8b6b14.chunk.js.LICENSE.txt",
+    "static/media/delete.b5d68e25.png": "/todo-list/static/media/delete.b5d68e25.png",
+    "static/media/edit-svgrepo-com.6d81d145.svg": "/todo-list/static/media/edit-svgrepo-com.6d81d145.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6499a3fd.js",
+    "static/js/2.fd8b6b14.chunk.js",
+    "static/css/main.bf530fe8.chunk.css",
+    "static/js/main.148d81a0.chunk.js"
+  ]
+}
