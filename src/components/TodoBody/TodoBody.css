@@ -1,0 +1,98 @@
+.todo_body__cards{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+.todo_body__cards::-webkit-scrollbar{
+    width: 5px;
+}
+.todo_body__cards::-webkit-scrollbar-thumb{
+    background-color: rgb(1, 214, 253);
+    border-radius: 5px;
+}
+.todo_body__card{
+    flex: 0 0 31%;
+    height: 250px;
+    margin: 10px 13px 0 0;
+    padding: 20px ;
+    border: 2px solid lightseagreen;
+    border-radius: 30px;
+    position: relative;
+}
+.todo_card__settings{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__settings_buttons{
+    display: flex;
+}
+.card__settings_delete{
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+}
+.card__settings_delete img{
+    width: 100%;
+    display: block;
+}
+.card__settings_edit{
+    width: 30px;
+    height: 30px;
+}
+.card__settings_edit img{
+    width: 100%;
+    display: block;
+}
+.card_checkbox{
+    position: relative;
+    display: block;
+}
+.card_checkbox::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: block;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.card_checkbox::after{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(1, 214, 253);
+    display: block;
+    border-radius: 30px;
+    transition: 0.5s;
+    transform: scale(0);
+    z-index: 2;
+}
+.card_checkbox.todo_card__completed::after{
+    transform: scale(1);
+}
+.todo_body__card.todo_body__card_deleted{
+    transform: scale(0);
+    transition: 0.5s;
+}
+.todo_card__title, .todo_card__text{
+    max-width: 250px;
+}
+
+@media (max-width: 730px) {
+    .todo_body__card{
+        flex: 0 0 100%;
+    }
+}

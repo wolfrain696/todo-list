@@ -1,0 +1,35 @@
+.todo{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgb(35, 35, 37);
+    color: white;
+}
+.todo_bottom{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.todo_button__input{
+    width: 100%;
+    font-size: 20px ;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.todo_button__input:focus{
+    transition: 0.5s ;
+    box-shadow: 1px 5px 10px red;
+}
+.todo_bottom__button{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: none;
+    width: 150px;
+    letter-spacing: 5px;
+    font-size: 18px;
+    text-decoration: underline darkcyan;
+}
